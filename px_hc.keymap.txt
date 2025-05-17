@@ -1,0 +1,401 @@
+# Auto-generated Mapping for px_hc.js
+
+cipher==String Literal: "SHA512"
+len==Numeric Literal: 36
+onreadystatechange==Function Expression
+overflow==String Literal: "hidden"
+href==Identifier: n
+cookie==Call: Property Access: ""["concat"]("_pxttld=1","; domain=")["concat"](...)
+default==Node (SequenceExpression): (k={})["btn"]="Press & Hold",k["failed"]="Please try again",k["ctx_hdr...
+btn==String Literal: "Press & Hold"
+failed==String Literal: "Please try again"
+DISABLED==Numeric Literal: 0
+onSolvedCallback==Null Literal
+challengeTries==Empty Array []
+challengePressTimestamps==Empty Array []
+challengeReleaseTimestamps==Empty Array []
+barWidth==Numeric Literal: 0
+triesCount==Numeric Literal: 0
+accumulatedPressTime==Numeric Literal: 0
+isBarFilledIndicatorAccessed==Unary Op (!): [Numeric Literal: 1]
+isFakeCaptchaPressed==Unary Op (!): [Numeric Literal: 1]
+passiveInterval==Unary Op (void): [Numeric Literal: 0]
+activeInterval==Unary Op (void): [Numeric Literal: 0]
+frameEl==Unary Op (void): [Numeric Literal: 0]
+parentEl==Unary Op (void): [Numeric Literal: 0]
+shadowRoot==Unary Op (void): [Numeric Literal: 0]
+challengeEl==Unary Op (void): [Numeric Literal: 0]
+containerEl==Unary Op (void): [Numeric Literal: 0]
+challengeTextEl==Unary Op (void): [Numeric Literal: 0]
+frameContentDocument==Unary Op (void): [Numeric Literal: 0]
+controllerCallback==Unary Op (void): [Numeric Literal: 0]
+isActive==Unary Op (void): [Numeric Literal: 0]
+totalWidth==Unary Op (void): [Numeric Literal: 0]
+translation==Unary Op (void): [Numeric Literal: 0]
+barIncrement==Unary Op (void): [Numeric Literal: 0]
+pressChallengeTime==Unary Op (void): [Numeric Literal: 0]
+isReleased==Unary Op (void): [Numeric Literal: 0]
+frameOffset==Unary Op (void): [Numeric Literal: 0]
+challengeStartTime==Unary Op (void): [Numeric Literal: 0]
+challengeRenderTimestamp==Unary Op (void): [Numeric Literal: 0]
+barFilledIndicatorAccessedStack==Unary Op (void): [Numeric Literal: 0]
+jaws==Node (SequenceExpression): (qr={})["active"]=0,qr["passive"]=0,qr["lastHit"]=0,qr["detected"]=!1,...
+active==Numeric Literal: 0
+passive==Numeric Literal: 0
+lastHit==Numeric Literal: 0
+detected==Unary Op (!): [Numeric Literal: 1]
+accessibilityBtn==Unary Op (void): [Numeric Literal: 0]
+accessibilityFlowEmailSender==String Literal: ""
+accEmail==Unary Op (void): [Numeric Literal: 0]
+accValue==Unary Op (void): [Numeric Literal: 0]
+accTooltip==Unary Op (void): [Numeric Literal: 0]
+hasViewProps==Unary Op (!): [Numeric Literal: 1]
+modifiedCaptchaCSS==Unary Op (!): [Numeric Literal: 1]
+verificationFailed==Unary Op (!): [Numeric Literal: 1]
+sensorPartyInCaptchaPage==Null Literal
+challengeDiv==Unary Op (void): [Numeric Literal: 0]
+ar==String Literal: "ar-SA"
+bn==String Literal: "bn-IN"
+da==String Literal: "da-DK"
+de==String Literal: "de-DE"
+el==String Literal: "el-GR"
+es==String Literal: "es-ES"
+fa==String Literal: "fa-IR"
+fr==String Literal: "fr-FR"
+gu==String Literal: "gu-IN"
+he==String Literal: "he-IL"
+hi==String Literal: "hi-IN"
+hu==String Literal: "hu-HU"
+id==String Literal: "id-ID"
+it==String Literal: "it-IT"
+ja==String Literal: "ja-JP"
+ko==String Literal: "ko-KR"
+nl==String Literal: "nl-NL"
+pl==String Literal: "pl-PL"
+pt==String Literal: "pt-BR"
+ro==String Literal: "ro-RO"
+ru==String Literal: "ru-RU"
+sv==String Literal: "sv-SE"
+ta==String Literal: "ta-IN"
+th==String Literal: "th-TH"
+vi==String Literal: "vi-VN"
+zh==String Literal: "zh-CN"
+OLD==Numeric Literal: 0
+NEW==Numeric Literal: 1
+isPxCaptchaContext==Unary Op (void): [Numeric Literal: 0]
+isVisionOS==Unary Op (void): [Numeric Literal: 0]
+domain==Call: Identifier: Cn()
+logoImgSrc==Binary Op (||): [L: Property Access: v["logoImgSrc"], R: Property Access: window["_pxCustomLogo"]]
+bothLogoAndHeaderEnabled==Binary Op (&&): [L: Property Access: v["logoImgSrc"], R: Property Access: v["headerText"]]
+headerText==Binary Op (||): [L: Property Access: v["headerText"], R: Property Access: e["ctx_hdr"]]
+headerColor==Binary Op (||): [L: Property Access: v["headerColor"], R: String Literal: "#626364"]
+headerFontSize==Binary Op (||): [L: Property Access: v["headerFontSize"], R: String Literal: "29px"]
+messageText==Binary Op (||): [L: Property Access: v["messageText"], R: Call: Property Access: "".concat(Node (ConditionalExp...)]
+messageColor==Binary Op (||): [L: Property Access: v["messageColor"], R: Node (ConditionalExpression): tt["isVisionOS"]?"rgba(255, 255, 255, 0.96)":"#626364"]
+messageFontSize==Binary Op (||): [L: Property Access: v["messageFontSize"], R: Node (ConditionalExpression): tt["isVisionOS"]?"24px":"18px"]
+failedProps==Node (SequenceExpression): (n={})["fontSize"]=m||(tt["isNewButtonDesign"]?"12px":"16px"),n["color...
+fontSize==Binary Op (||): [L: Identifier: m, R: Node (ConditionalExpression): tt["isNewButtonDesign"]?"12px":"16px"]
+accessibleChallengeWidth==Binary Op (+): [L: Identifier: e, R: String Literal: "px"]
+height==Node (ConditionalExpression): ar(u["height"],"number")?""["concat"](u["height"],"px"):ar(u["height"]...
+backgroundColor==Node (ConditionalExpression): ar(u["backgroundColor"],"string")&&Lt(u["backgroundColor"])?u["backgro...
+borderColor==Node (ConditionalExpression): ar(u["borderColor"],"string")&&Lt(u["borderColor"])?u["borderColor"]:t...
+borderWidth==Node (ConditionalExpression): ar(u["borderWidth"],"number")?u["borderWidth"]:tt["isVisionOS"]?0:tt["...
+borderRadius==Call: Property Access: ""["concat"](...)
+texSize==Numeric Literal: 31
+textFont==Node (ConditionalExpression): ar(u["textFont"],"string")?u["textFont"]:tt["isVisionOS"]?"\"Helvetica...
+fontWeight==Node (ConditionalExpression): ar(u["fontWeight"],"number")?u["fontWeight"]:ar(u["fontWeight"],"strin...
+padding==Node (ConditionalExpression): ar(u["padding"],"string")?u["padding"]:"0"
+pressableAreaPadding==Node (ConditionalExpression): ar(u["pressableAreaPadding"],"string")?u["pressableAreaPadding"]:"0px"
+pressableAreaWidth==Node (ConditionalExpression): ar(u["pressableAreaWidth"],"string")?u["pressableAreaWidth"]:"100%"
+isLoader==Binary Op (||): [L: Identifier: s, R: Identifier: m]
+targetColor==Node (ConditionalExpression): ar(u["targetColor"],"string")&&Lt(u["targetColor"])?u["targetColor"]:t...
+checkmarkThickness==Node (ConditionalExpression): ar(u["checkmarkThickness"],"string")?u["checkmarkThickness"]:tt["isNew...
+checkmarkHeight==Node (ConditionalExpression): ar(u["checkmarkHeight"],"string")?u["checkmarkHeight"]:tt["isNewButton...
+checkmarkWidth==Node (ConditionalExpression): ar(u["checkmarkWidth"],"string")?u["checkmarkWidth"]:tt["isNewButtonDe...
+type==String Literal: "text/css"
+cssText==Identifier: e
+src==Call: Property Access: ""["concat"](function(){function n(n,r){return An(n-638,r);}var r=t,u=location["protocol"];return 0!==u["indexOf"]("http")&&(u="https:"),u;}(),"//")["concat"](r,"/")["concat"](...)
+onerror==Function Expression
+PX1070==Unary Op (!): [Numeric Literal: 0]
+PX1076==Call: Property Access: Math["round"](Binary Op (/): [L: B...)
+EFIlFlU5IiM===Identifier: r
+SBp9Xg51dmw===Property Access: window["location"]["hostname"]
+DhA7VEh9PG4===Identifier: v
+cRNEFzd9RyY===Identifier: e
+aHodfi4ZGEg===Call: Identifier: Kt()
+XGZpYhkNb1k===Identifier: u
+JxkSHWJ2GCY===String Literal: "v2.4.1"
+Z1lSXSI3WGo===Call: Function Expression()
+EmwnaFcCLFw===Unary Op (!): [Unary Op (!): [Call: Identifier: tv()]]
+MkxHCHchRDI===Unary Op (!): [Unary Op (!): [Call: Identifier: vv()]]
+BzlyfUJUckw===Call: Function Expression()
+status==Identifier: n
+captchaType==Identifier: n
+captchaStage==Identifier: r
+captchaToken==Binary Op (||): [L: Identifier: u, R: String Literal: ""]
+detail==Identifier: m
+message==Identifier: n
+get==Function Expression
+onload==Function Expression
+handler==Identifier: n
+runLast==Identifier: r
+capture==Binary Op (||): [L: Property Access: v["capture"], R: Unary Op (!): [Numeric Literal: 1]]
+once==Property Access: v["once"]
+mozSystemGroup==Property Access: v["mozSystemGroup"]
+attributes==Unary Op (!): [Numeric Literal: 0]
+HmArZFsLLVY===Call: Function Expression()
+WiRvIB9PZBU===Constant Variable: Xv = Empty Array []
+JV8QW2M9EG8===Constant Variable: Tv = Empty Array []
+MkxHCHQgQTM===Constant Variable: Wv = Empty Array []
+ZjgTPCBVGAY===Call: Property Access: qe(Qv)["slice"](Numeric Literal: 0)
+U00mSRUiJ3g===Call: Property Access: qe(Bv)["slice"](Numeric Literal: 0)
+LDZZMmlcXQA===Constant Variable: Yv = Empty Array []
+XQcoAxtoKDY===Call: Property Access: Math["round"](Property Access: f["...)
+fyFKZTpISF8===Call: Property Access: Math["round"](Property Access: f["...)
+AEI1BkYhNTA===Call: Property Access: Math["round"](Property Access: f["...)
+DhA7VEh9Omc===Call: Property Access: Math["round"](Property Access: f["...)
+QAJ1RgZhc3c===Property Access: screen["width"]
+FwliDVFlaD4===Property Access: screen["height"]
+GCotLl5ILxo===Constant Variable: pv = Empty Array []
+bjAbNChYHQU===Constant Variable: Vv = Empty Array []
+GCotLl1CKB8===Constant Variable: Rv = Empty Array []
+ZR9QGyNyUCk===Constant Variable: Ov = Empty Array []
+aHodfi4YG0k===Property Access: s["x"]
+FC4hKlFEJBw===Property Access: s["y"]
+KDpdPm5ZVw4===Property Access: n["type"]
+W0UuQR0oKHE===Property Access: n["screenX"]
+BhgzXEBwMG0===Property Access: n["screenY"]
+b1FaVSk9X2U===Call: Identifier: ce(Identifier: n)
+Y11WWSUyV20===Call: Identifier: Mv(Identifier: m)
+MkxHCHQiRzM===Property Access: _v["usedJSHeapSize"]
+XGZpYhoIblU===Property Access: _v["jsHeapSizeLimit"]
+CzV+cU1Wf0A===Property Access: _v["totalJSHeapSize"]
+GmQvYFwGKFo===Unary Op (!): [Numeric Literal: 0]
+NS8Aa3BFAVA===Unary Op (!): [Numeric Literal: 0]
+fgALRDtrC3I===Property Access: K["x"]
+N2kCLXEFBRY===Property Access: K["y"]
+dylCbTFKSVk===Property Access: r["type"]
+ZjgTPCBVEg0===Property Access: r["screenX"]
+aHodfi4VG0k===Property Access: r["screenY"]
+ZR9QGyBwUy4===Call: Identifier: ce(Identifier: r)
+set==Function Expression
+PX12343==Identifier: e
+PX11652==Identifier: f
+PX11699==Call: Identifier: ce(Identifier: n)
+PX12270==Call: Identifier: ie(Identifier: n)
+PX12235==Binary Op (||): [L: Binary Op (||): [L: Binary Op (===): [L: Property Access: n["code"], R: String Literal: "Tab"], R: Binary Op (===): [L: Property Access: n["key"], R: String Literal: "Tab"]], R: Unary Op (void): [Numeric Literal: 0]]
+PX12455==Binary Op (||): [L: Binary Op (||): [L: Binary Op (===): [L: Property Access: n["code"], R: String Literal: "Enter"], R: Binary Op (===): [L: Property Access: n["key"], R: String Literal: "Enter"]], R: Unary Op (void): [Numeric Literal: 0]]
+PX12309==Binary Op (||): [L: Binary Op (||): [L: Binary Op (===): [L: Property Access: n["code"], R: String Literal: "Space"], R: Binary Op (===): [L: Property Access: n["key"], R: String Literal: "Space"]], R: Unary Op (void): [Numeric Literal: 0]]
+PX12108==Call: Property Access: Math["round"](Property Access: K["...)
+PX12414==Call: Property Access: Math["round"](Property Access: K["...)
+PX12284==Property Access: s["radiusX"]
+PX11693==Property Access: s["radiusY"]
+PX12067==Property Access: s["rotationAngle"]
+PX12175==Property Access: s["identifier"]
+PX11861==Property Access: s["force"]
+PX11425==Constant Variable: v = Empty Array []
+opacity==Call: Property Access: (e/10)["toString"]()
+onblur==Node (AssignmentExpression): jr["accessibilityBtn"]["onpointerleave"]=n?Ge:null
+onpointerleave==Node (ConditionalExpression): n?Ge:null
+visibility==String Literal: ""
+marginRight==String Literal: "0px"
+marginLeft==String Literal: "0px"
+marginBottom==String Literal: "0px"
+paddingRight==String Literal: "0px"
+paddingLeft==String Literal: "0px"
+paddingTop==String Literal: "0px"
+display==String Literal: "block"
+position==String Literal: "static"
+containerId==Identifier: On
+challengeId==Identifier: On
+textId==Identifier: On
+disableClass==Identifier: On
+activeClass==Identifier: On
+helperWrapperClass==Identifier: On
+btnWrapperFocusClass==Identifier: On
+accEmailInputTextError==Identifier: On
+step2ContinueBtn==Identifier: On
+tryAgainText==Identifier: On
+accText==Identifier: On
+accValueBox==Identifier: On
+noEmailLink==Identifier: On
+accImg==Identifier: On
+visuallyHidden==Identifier: On
+insertValueTxt==Identifier: On
+ariaDescribedBy==Identifier: On
+ariaLiveRegion==Identifier: On
+textSize==Identifier: On
+innerHeight==Identifier: On
+margin==Identifier: On
+cssResources==Identifier: On
+pressableAreaTop==Identifier: On
+accTooltipSide==Identifier: On
+cntWidth==Identifier: On
+barParts==Identifier: On
+isAnimationEnabled==Identifier: On
+buttonBorderWidthOnFocus==Identifier: On
+failedFontSize==Identifier: On
+failedColor==Identifier: On
+mode==String Literal: "closed"
+minWidth==Property Access: Oe["width"]
+cursor==String Literal: ""
+getAttribute==Function Expression
+getAttributeNode==Function Expression
+hasAttribute==Function Expression
+querySelectorAll==Function Expression
+contains==Function Expression
+item==Function Expression
+getPropertyValue==Function Expression
+getNamedItem==Function Expression
+getComputedStyle==Function Expression
+left==Property Access: e["left"]
+top==Property Access: e["top"]
+rel==String Literal: "preconnect"
+pxcntId==Property Access: Re["containerId"]
+pxdc==Property Access: Re["disableClass"]
+pxcd==Property Access: Re["doneClass"]
+pxbbwof==Property Access: Oe["buttonBorderWidthOnFocus"]
+pxba==Property Access: Re["barId"]
+pxtc==Property Access: Re["textContainer"]
+pxbtnwarpper==Property Access: Re["helperWrapperClass"]
+pxvisuallyhidden==Property Access: Re["visuallyHidden"]
+onkeyup==Node (ConditionalExpression): n?Af:null
+ontouchstart==Node (ConditionalExpression): n?Pf:null
+ontouchmove==Node (ConditionalExpression): n?Pf:null
+cancelBubble==Unary Op (!): [Numeric Literal: 0]
+returnValue==Unary Op (!): [Numeric Literal: 1]
+textContent==Property Access: jr["translation"]["btn_done"]
+cdn==Null Literal
+servedBy==Null Literal
+maxAge==Unary Op (-): [Numeric Literal: 1]
+maxStale==Unary Op (-): [Numeric Literal: 1]
+maxAgeValue==Identifier: e
+isChallengeDone==Unary Op (!): [Numeric Literal: 0]
+releaseTime==Identifier: r
+pressEvent==Identifier: u
+releaseEvent==Identifier: v
+GUtsT1wjZn8===Constant Variable: K = Empty Array []
+ChQ/UEx8O2I===Identifier: v
+TBZ5Ugp6eGU===Binary Op (||): [L: Unary Op (!): [Unary Op (!): [Property Access: jr["accValue"]]], R: Identifier: u]
+U00mSRYkJH4===Property Access: jr["fakeToken"]
+W0UuQR0tKXQ===Property Access: jr["challengeTime"]
+Q302OQUVNgo===Identifier: m
+EXNkN1QeYQE===Property Access: jr["challengeRenderTimestamp"]
+MVMEV3Q+AWA===Property Access: jr["challengePressTimestamps"]
+bHYZcikbHEY===Property Access: jr["challengeReleaseTimestamps"]
+fgALRDhoDHc===Property Access: jr["isFakeCaptchaPressed"]
+HmArZFgCKF8===Property Access: jr["unknownScriptDetected"]
+Y11WWSUxVWs===Property Access: jr["isBarFilledIndicatorAccessed"]
+Z1lSXSIzUW4===Property Access: jr["barFilledIndicatorAccessedStack"]
+NS8Aa3BAAl4===Property Access: jr["jaws"]["detected"]
+dylCbTJGQV4===Binary Op (||): [L: Property Access: window["innerHeight"], R: Unary Op (-): [Numeric Literal: 1]]
+XiBrJBhPYBI===Binary Op (||): [L: Property Access: window["innerWidth"], R: Unary Op (-): [Numeric Literal: 1]]
+P2EKJXoIDhI===Identifier: Vf
+EXNkN1Qcbww===Property Access: jr["hasViewProps"]
+OSsMb3xFDl0===Property Access: jr["modifiedCaptchaCSS"]
+CXt8P0wVfAw===Unary Op (!): [Unary Op (!): [Property Access: jr["shadowRoot"]]]
+QAJ1RgVsdXY===Binary Op (&&): [L: Property Access: jr["shadowRoot"], R: Unary Op (!): [Binary Op (||): [L: Unary Op (!): [jr["parentEl"]], R: Unary Op (!): [jr["parentEl"]["shadowRoot"]]]]]
+bRdYEyh5WCk===Identifier: o
+WiRvIB9Kbxs===Binary Op (&&): [L: Unary Op (!): [Identifier: o], R: Call: Identifier: wt()]
+JxkSHWJ0Eis===Binary Op (===): [L: Property Access: jr["sensorPartyInCaptchaPage"], R: Property Access: fr["FIRST_PARTY"]]
+YQNUByRuVzE===Property Access: jr["accessibilityMode"]
+init==Function Expression
+urlContainsList==Array Literal ([...])
+PX12488==Identifier: f
+end==Identifier: f
+exports==Empty Object {}
+enumerable==Unary Op (!): [Numeric Literal: 0]
+configurable==Unary Op (!): [Numeric Literal: 0]
+writable==Unary Op (!): [Numeric Literal: 0]
+method==Identifier: n
+arg==Identifier: r
+sent==Node (AssignmentExpression): D["_sent"]=D["arg"]
+done==Property Access: D["done"]
+wrap==Identifier: o
+delegate==Null Literal
+next==Property Access: n["nextLoc"]
+tryLoc==Property Access: n[0]
+catchLoc==Property Access: n[1]
+finallyLoc==Property Access: n[2]
+afterLoc==Property Access: n[3]
+completion==Identifier: v
+tryEntries==Array Literal ([...])
+displayName==Call: Identifier: L(...)
+isGeneratorFunction==Function Expression
+mark==Function Expression
+keys==Function Expression
+values==Identifier: J
+constructor==Identifier: b
+prev==Numeric Literal: 0
+stop==Function Expression
+abrupt==Function Expression
+complete==Function Expression
+rval==Node (AssignmentExpression): this["arg"]=n["arg"]
+finish==Function Expression
+iterator==Call: Identifier: J(Identifier: n)
+resultName==Identifier: r
+nextLoc==Identifier: v
+regeneratorRuntime==Identifier: e
+instance==Identifier: f
+module==Identifier: u
+wbg==Empty Object {}
+t0==Identifier: g
+initSync==Function Expression
+onFulfilled==Node (ConditionalExpression): s(n)==="function"?n:null
+onRejected==Node (ConditionalExpression): s(r)==="function"?r:null
+promise==Identifier: u
+then==Function Expression
+finally==Function Expression
+any==Function Expression
+all==Function Expression
+resolve==Function Expression
+reject==Function Expression
+race==Function Expression
+iterations==Numeric Literal: 1
+hash==Identifier: s
+heightJump==Identifier: f
+isMatch==Unary Op (!): [Numeric Literal: 0]
+timeToSolve==Identifier: Em
+totalPixelCount==Identifier: Am
+browserNotSupported==Numeric Literal: 24
+bruteForceDone==Unary Op (!): [Numeric Literal: 0]
+program==Identifier: e
+attribLocations==Node (SequenceExpression): (r={})["vertexPosition"]=Dm["getAttribLocation"](e,"aVertexPosition"),...
+vertexPosition==Call: Property Access: Dm["getAttribLocation"](...)
+uniformLocations==Node (SequenceExpression): (t={})["v"]=Dm["getUniformLocation"](e,"v"),t["resolution"]=Dm["getUni...
+resolution==Call: Property Access: Dm["getUniformLocation"](...)
+globalCompositeOperation==String Literal: "copy"
+logo==Binary Op (||): [L: Property Access: s["logo"], R: Empty Object {}]
+page==Binary Op (||): [L: Property Access: s["page"], R: Empty Object {}]
+url==Binary Op (||): [L: Property Access: s["logo"]["url"], R: String Literal: ""]
+minTime==Binary Op (||): [L: Property Access: s["minTime"], R: Unary Op (void): [Numeric Literal: 0]]
+PX11659==Identifier: nK
+alt==String Literal: "Logo"
+errorTimestamp==Null Literal
+PX12634==Identifier: lm
+pxRenderHumanChallenge==Identifier: i
+PX1135==Identifier: Es
+AEI1BkUvNTE===Property Access: r["height"]
+FwliDVJkYjk===Property Access: r["width"]
+PAZJQnlrSXc===Property Access: r["widthJump"]
+OkRPAH8pTzo===Property Access: r["heightJump"]
+MDJFNnVfRQ0===Property Access: r["totalPixelCount"]
+ajQfMC9ZHgI===Property Access: r["hash"]
+VQ8gCxBiITg===Property Access: r["iterations"]
+R3kyPQIUMw0===Property Access: r["timeToSolve"]
+EFIlFlU/JCc===Property Access: r["browserNotSupported"]
+numOfWebWorkers==Identifier: ws
+FwliDVJnYzc===Identifier: A
+RT8wewBRMU4===Identifier: C
+XiBrJBhPbBI===Call: Identifier: xe()
+TlB7FAs+fSI===Call: Identifier: Ms()
+KVscX2w1FmQ===Identifier: xs
+VihjLBNGaB4===Call: Property Access: gs["a"]()
+bRdYEyh6WyE===Call: Property Access: gs["b"](Identifier: r)
+KDpdPm5SXA====Identifier: v
+RB5xWgJ2cQ====Identifier: e
+RlhzHAM2cSo===Call: Identifier: parseInt(Binary Op (-): [L: C...)
+GwVuAV5raDQ===Identifier: r
+PX12616==Identifier: Sf
+PX12617==Identifier: Ff
+S3U+MQ4YOwA===Identifier: _f
